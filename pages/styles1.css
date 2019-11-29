@@ -1,0 +1,406 @@
+/* IMPORTATION DES POLICES */
+@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap");
+
+* {
+  margin: 0;
+}
+
+.body {
+  position: relative;
+  height: 65px;
+  background: white;
+  font-family: "oxygen";
+}
+
+/* Image Gourde */
+
+div.gourde-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gourde2 {
+  width: 182px;
+  height: 334px;
+  z-index: 2;
+}
+
+.rectangle {
+  width: 100%;
+  position: absolute;
+  bottom: 55px;
+  height: 47px;
+  z-index: 1;
+  background: rgba(102, 75, 143, 0.42);
+}
+
+.unicef {
+  width: 43px;
+  height: 37px;
+  position: absolute;
+  top: 60px;
+  right: 20%;
+}
+
+.gourdes {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
+}
+.gourdeD {
+  width: 136px;
+  height: 146px;
+}
+.gourdeD2 {
+  width: 86px;
+  height: 146px;
+  border-radius: 12px;
+  transition: ease-in 0.5s;
+  z-index: 2;
+}
+
+/* Présentation gourde */
+
+.presentation-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  margin-top: 32px;
+}
+
+.presentation-container h1 {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+
+  color: #252525;
+}
+
+.presentation-container h2 {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #1e90ff;
+}
+
+.presentation-container p {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #252525;
+}
+.presentation-container a {
+  display: none;
+}
+
+.presentation-container em {
+  color: #1e90ff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Appli + Achat du Produit */
+
+.achat-container {
+  display: flex;
+  flex-direction: column;
+  margin: 22px 11px;
+}
+
+.achat-container h1 {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.achat-container a {
+  text-align: center;
+  background-color: #000000;
+  color: white;
+  border-radius: 30px;
+  padding: 8px 0 14px 0;
+
+  font-family: "Oxygen";
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
+}
+
+/* Faire un don */
+
+.don-container a {
+  display: flex;
+  font-family: "Oxygen";
+  flex-direction: column;
+  background: #1e90ff;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding: 4px 0 15px 0;
+}
+
+/* Caractéristiques du produit */
+
+.avantages-container {
+  display: none;
+}
+
+.caracteristiques-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  padding: 22px 0 10px 0;
+}
+
+.caracteristiques-container h1 {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 0 15px 15px 15px;
+}
+
+.caracteristiques-container ol {
+  display: list-item;
+  list-style-type: "-";
+  padding: 0 13px 0 17px;
+}
+
+.caracteristiques-container li {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+
+  color: #252525;
+}
+
+.caracteristiques-container p {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+
+  color: #252525;
+}
+
+/* En savoir plus sur le produit */
+
+.savoir-container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 14px 0 14px;
+  margin-bottom: 30px;
+}
+
+.savoir-container div {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.savoir-container div h1 {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.savoir-container div .rectangle2 {
+  background: black;
+  height: 5px;
+  width: 43%;
+  margin: 15px 0 0 15px;
+}
+
+.savoir-container p {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.savoir-container em {
+  font-weight: 900;
+}
+
+/* Animation GIF */
+
+.imggrande {
+  transform: scale(3);
+  z-index: 12;
+  transform-origin: 100% 100%;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 1024px) {
+  .englobe {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .unicef {
+    position: absolute;
+    right: 35%;
+    top: 100px;
+  }
+
+  .gourdeD {
+    width: 356px;
+    height: 426px;
+  }
+
+  .gourdeD2 {
+    transform: scale(1.5);
+  }
+
+  .gourde2 {
+    width: 312px;
+    height: 634px;
+  }
+
+  .gourde-container {
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+  }
+
+  .gourdes {
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .gourdes div {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rectangle {
+    display: none;
+  }
+  .presentation-container {
+    padding: 50px 0 0 0;
+    width: 50%;
+    background-color: #f4f4f4;
+  }
+  .presentation-container h1 {
+    margin-left: 10%;
+  }
+
+  .presentation-container h2 {
+    margin-left: 10%;
+  }
+
+  .presentation-container p {
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+
+  .presentation-container a {
+    width: 60%;
+    display: inline-block;
+    text-align: center;
+    font-family: "Oxygen";
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: black;
+    padding: 20px;
+    margin: 10% 0 10% 15%;
+    color: #f4f4f4;
+  }
+
+  .achat-container h1 {
+    display: none;
+  }
+
+  .achat-container a {
+    display: none;
+  }
+
+  .binks {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 20px 0 0 0;
+  }
+
+  /* Avantages du produit */
+
+  .avantages-container {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin: 83px 14px 100px 14px;
+    margin: 0;
+  }
+
+  .avantages-container .set {
+    background-color: #bfb3d0;
+    color: white;
+    padding: 35px;
+    margin: 0 20px 20px 0;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+  }
+
+  .avantages-container div h1 {
+    font-family: "Oxygen";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: white;
+  }
+  .cont_form h1 {
+    display: none;
+  }
+  .panier {
+    text-align: center;
+    background: #000000;
+    color: black;
+    border-radius: 30px;
+    padding: 8px 0 14px 0;
+
+    font-family: "Oxygen";
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+  }
+}
+
+
+

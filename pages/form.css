@@ -1,0 +1,164 @@
+@media (min-width: 1024px) {
+  .cont_form {
+    /*margin-left: 50%;*/
+    display: flex;
+    flex-direction: column;
+  }
+  .global_cont {
+    display: flex;
+  }
+  
+}
+
+.titre1 h1 {
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  font-family: "Oxygen";
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.titre1 h2 {
+  font-family: "Oxygen";
+  margin-top: 25px;
+  margin-left: 5%;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.titre2{
+  font-family: "Oxygen";
+  font-size: 12px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 5%;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.titre3{
+  font-family: "Oxygen";
+  font-size: 12px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 5%;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/*for the Js code in script/form.js  - Start*/
+
+.selection{
+  border: 3px solid #1E90FF;
+}
+
+.selection2{
+  border: 8px solid #1E90FF;
+}
+
+/*for the Js code in script/form.js  - End*/
+
+/*color choice*/
+
+.color {
+   display: flex;
+   flex-flow: row wrap;
+}
+
+#color1 {
+  margin-left: 15%;
+  border-radius: 50px;
+  width: 52px;
+  height: 52px;
+  left: 15px;
+  background: #5F4685;
+  cursor: pointer;
+}
+
+#color2 {
+  margin-left: 15%;
+  border-radius: 50px;
+  width: 52px;
+  height: 52px;
+  left: 101px;
+  background: #EBEC03;
+  cursor: pointer;
+}
+
+#color3 {
+  margin-left: 15%;
+  border-radius: 50px;
+  width: 52px;
+  height: 52px;
+  left: 187px;
+  background: #7FD1E2;
+  cursor: pointer;
+}
+
+/*capacity of the bottle*/
+
+.content {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.content label {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 21px;
+  cursor: pointer;
+  font-family: "Oxygen";
+  font-weight: 550;
+  margin-top: 13px;
+}
+
+#Contenance500ml {
+  width: 157px;
+  height: 42px;
+  background: #F4F4F4;
+  margin-right: 10px;
+  margin-left: 5%
+}
+
+#Contenance750ml {
+  width: 157px;
+  height: 42px;
+  background: #F4F4F4;
+  margin-left: 5%
+}
+
+/*option*/
+
+#option1 {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background: #F4F4F4;
+  margin-bottom: 9px;
+  margin-left: 5%
+}
+
+#option2 {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background: #F4F4F4;
+  margin-left: 5%
+}
+
+#option1 p{
+  font-family: "Oxygen";
+  margin-left: 45px;
+  padding-top: 7px;
+  width: 110vw;
+}
+
+#option2 p{
+  font-family: "Oxygen";
+  margin-left: 45px;
+  padding-top: 7px;
+  width: 110vw;
+}

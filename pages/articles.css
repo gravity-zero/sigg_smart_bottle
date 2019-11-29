@@ -1,0 +1,184 @@
+.article {
+  margin-top: 65px;
+}
+
+.article h1 {
+  padding-left: 14px;
+  padding-right: 14px;
+  font-size: 15px;
+  padding-top: 4%;
+  width: 100vw;
+  height: 80px;
+  background-color: #f4f4f4;
+  color: black;
+}
+
+.title-article {
+  font-weight: bold;
+  color: #1cabe3;
+}
+
+.title-article2 {
+  color: #53007a;
+  font-weight: bold;
+}
+
+.article p {
+  margin-top: 23px;
+  margin-left: 14px;
+  margin-right: 14px;
+  line-height: 22px;
+}
+
+.article img {
+  width: 100vw;
+}
+
+.text-blue {
+  font-size: 22px;
+  color: #1cabe3;
+  font-weight: bold;
+}
+
+.text-purple {
+  font-size: 22px;
+  color: #53007a;
+  font-weight: bold;
+}
+
+.size-bold {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.unicef-article {
+  display: flex;
+  margin-top: 10px;
+  width: 100vw;
+  height: 150x;
+  background-color: #1e8fff48;
+}
+
+.unicef-article img {
+  margin-top: 20px;
+  margin-left: 14px;
+  margin-right: 14px;
+  max-width: 90%;
+  max-height: 90%;
+}
+.unicef-right {
+  margin-top: 60px;
+  margin-left: -20px;
+  margin-bottom: 20px;
+}
+.unicef-right h1 {
+  font-size: 20px;
+  width: 200px;
+}
+
+.unicef-right h2 {
+  width: 200px;
+  margin-top: 20px;
+  font-weight: lighter;
+  font-size: 13px;
+  color: #1e90ff;
+}
+
+.unicef-right h3 {
+  font-size: 13px;
+  font-weight: lighter;
+  margin-top: 5vw;
+  margin-left: 20vw;
+}
+
+.unicef-right img {
+  margin-top: 2vw;
+  max-width: 30vw;
+  margin-left: 20vw;
+}
+
+.unicef-right button {
+  width: 150px;
+  height: 50px;
+  background-color: #1e90ff;
+  border: none;
+  border-radius: 30px;
+}
+
+.unicef-right button a {
+  color: white;
+}
+
+.wave-purple {
+  width: 100vw;
+}
+
+
+.article button {
+  margin-left: 14px;
+  padding-top: -190px;
+  border: none;
+  z-index: 1;
+  background-color: black;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.article button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* DESKTOP SCREEN */
+
+@media (min-width: 1024px) {
+  .article {
+    font-size: 25px;
+  }
+
+  .article img {
+    width: 100vw;
+  }
+
+  .article p {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    line-height: 40px;
+  }
+
+  .unicef-article {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .unicef-article h1 {
+    font-size: 30px;
+    width: 400px;
+  }
+
+  .unicef-article h2 {
+    font-size: 25px;
+    width: 400px;
+  }
+
+  .unicef-article h3 {
+    font-size: 25px;
+  }
+
+  .unicef-right button {
+    width: 200px;
+    height: 70px;
+
+    margin-left: -300px;
+  }
+
+  .unicef-right button a {
+    font-size: 20px;
+  }
+}
